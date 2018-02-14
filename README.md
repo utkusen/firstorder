@@ -35,10 +35,15 @@ firstorder requires Python 2.7 with scapy and requests libraries to work. You ca
 It extracts following information from a pcap file:
 
 -Most used ports
+
 -Most used server headers
+
 -Most used user-agents
+
 -Most used URIs
+
 -How many different machines broadcasted ARP packets (for determining network size)
+
 -How many different machines executed LDAP queries (for determining network size)
 
 If you only pass pcap file as an argument with -f parameter, it analyzes and extracts information from the pcap file but doesn't create an Empire listener.
