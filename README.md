@@ -1,3 +1,20 @@
+```
+
+                .==.     A traffic analyzer to evade Empire's communication            
+               ()''()-.       __ _          _                _      
+    .---.       ;--; /       / _(_)        | |              | | 
+  .'_:___'. _..'.  __'.     | |_ _ _ __ ___| |_ ___  _ __ __| | ___ _ __ 
+  |__ --==|'-''' /'...;     |  _| | '__/ __| __/ _ \| '__/ _` |/ _ \ '__|  
+  [  ]  :[|       |---/     | | | | |  \__ \ || (_) | | | (_| |  __/ |    
+  |__|  =[|     .'    '.    |_| |_|_|  |___/\__\___/|_|  \__,_|\___|_|
+  / / ____|     :       '._           
+ |-/.____.'      | :       :        by Utku Sen, Gozde Sinturk
+/___\ /___\      '-'._----'              TEAR Security 
+
+
+```
+
+
 ## Abstract
 
 firstorder is designed to evade Empire's C2-Agent communication from anomaly-based intrusion detection systems. It takes a traffic capture file (pcap) of the network and tries to identify normal traffic profile. According to results, it creates an Empire HTTP listener with appropriate options.
