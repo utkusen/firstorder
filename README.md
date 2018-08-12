@@ -14,6 +14,10 @@
 
 ```
 
+<p align="center">
+<a href="https://www.defcon.org/html/defcon-26/dc-26-demolabs.html"><img src="https://img.shields.io/badge/DEF%20CON%2026-Demo%20Labs-red.svg"></a>
+</p>
+
 ## Abstract
 
 firstorder is designed to evade Empire's C2-Agent communication from anomaly-based intrusion detection systems. It takes a traffic capture file (pcap) of the network and tries to identify normal traffic profile. According to results, it creates an Empire HTTP listener with appropriate options.
