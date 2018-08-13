@@ -20,6 +20,8 @@
 
 Slides from DEF CON 26 - Packet Hacking Village: <a href="https://www.slideshare.net/utkusen/normalizing-empires-traffic-to-evade-anomalybased-ids">https://www.slideshare.net/utkusen/normalizing-empires-traffic-to-evade-anomalybased-ids</a>
 
+A more detailed blog post: <a href="https://utkusen.com/blog/bypassing-anomaly-based-nids-with-empire.html">https://utkusen.com/blog/bypassing-anomaly-based-nids-with-empire.html</a>
+
 ## Abstract
 
 firstorder is designed to evade Empire's C2-Agent communication from anomaly-based intrusion detection systems. It takes a traffic capture file (pcap) of the network and tries to identify normal traffic profile. According to results, it creates an Empire HTTP listener with appropriate options.
